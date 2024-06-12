@@ -1,0 +1,18 @@
+version: v1.0
+name: Semaphore CI pnpm example
+agent:
+  machine:
+    type: e1-standard-2
+    os_image: ubuntu1804
+blocks:
+  - name: Install dependencies
+    task:
+      jobs:
+        - name: pnpm install
+          commands:
+            - corepack enable
+            - corepack prepare pnpm@latest-9 --activate
+            - checkout
+            - cache restore node-$(checksum pnpm-lock.yaml)
+            - pnpm install
+            - cache store node-$(checksum pnpm-lock.yaml) $(pnpm store path)

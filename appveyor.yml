@@ -1,0 +1,5 @@
+install:
+  - ps: Install-Product node $env:nodejs_version
+  - corepack enable
+  - corepack prepare pnpm@latest-9 --activate
+  - pnpm install
