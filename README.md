@@ -9,7 +9,7 @@
 
 <a href="https://opencollective.com/rubocop/sponsor/0/website" target="_blank"><img src="https://opencollective.com/rubocop/sponsor/0/avatar.svg"></a>
 
-    `ⓉⒽⒺ Ⓖ.Ⓞ.Ⓐ.Ⓣ`
+     `ⓉⒽⒺ Ⓖ.Ⓞ.Ⓐ.Ⓣ`
 
 [![CI](https://github.com/XDream8/revanced-creator/actions/workflows/ci.yml/badge.svg)](https://github.com/XDream8/revanced-creator/actions/workflows/ci.yml)
 
