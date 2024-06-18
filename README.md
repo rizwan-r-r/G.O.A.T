@@ -1,5 +1,9 @@
+<p align="center">
+  <img src="https://raw.githubusercontent.com/rubocop/rubocop/master/logo/rubo-logo-horizontal-white.png" alt="RuboCop Logo"/>
+</p>
+
 ## THE●G.O.A.T
-### [GitHub Pages](https://pages.github.com)
+## [GitHub Pages](https://pages.github.com)
 
 `🅣🅗🅔 🅖.🅞.🅐.🅣`
 
