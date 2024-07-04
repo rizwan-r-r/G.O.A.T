@@ -3,6 +3,7 @@
     "gulp": "^5.0.0"
   },
   "dependencies": {
+    "package-lock.json": "^1.0.0",
     "package.json": "^0.0.0"
   }
 }
